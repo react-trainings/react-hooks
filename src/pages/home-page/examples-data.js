@@ -28,6 +28,16 @@ const examples = [
     id: 6,
     name: 'useEffect - conditionally running effects',
     url: '/HookCounterSix'
+  },
+  {
+    id: 7,
+    name: 'useEffect - Run effects only once',
+    url: '/HookMouse'
+  },
+  {
+    id: 8,
+    name: 'useEffect - Run effects only once',
+    url: '/HookMouse'
   }
 ];
 

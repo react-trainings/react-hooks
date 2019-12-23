@@ -10,6 +10,7 @@ import HookCounterThree from './components/hook-counter-three/hook-counter-three
 import HookCounterFour from './components/hook-counter-four/hook-counter-four.component';
 import HookCounterFive from './components/hook-counter-five/hook-counter-five.component';
 import HookCounterSix from './components/hook-counter-six/hook-counter-six.component';
+import HookMouse from './components/hook-mouse/hook-mouse.component';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/HookCounterFour" component={HookCounterFour} />
           <Route path="/HookCounterFive" component={HookCounterFive} />
           <Route path="/HookCounterSix" component={HookCounterSix} />
+          <Route path="/HookMouse" component={HookMouse} />
           <Redirect to="/home" />
         </Switch>
       </main>
