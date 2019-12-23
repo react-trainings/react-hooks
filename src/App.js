@@ -1,11 +1,15 @@
 import React from 'react';
+import { Switch, Route, Redirect } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
+
+import HomePage from './pages/home-page/home-page.component';
 import HookCounterOne from './components/hook-counter-one/hook-counter-one.component';
 import HookCounterTwo from './components/hook-counter-two/hook-counter-two.component';
 import HookCounterThree from './components/hook-counter-three/hook-counter-three.component';
 import HookCounterFour from './components/hook-counter-four/hook-counter-four.component';
 import HookCounterFive from './components/hook-counter-five/hook-counter-five.component';
+import HookCounterSix from './components/hook-counter-six/hook-counter-six.component';
 
 function App() {
   return (
@@ -15,13 +19,16 @@ function App() {
         <h4 className="app-title">React Hooks</h4>
       </header>
       <main className="app-main">
-        <HookCounterOne></HookCounterOne>
-        <HookCounterTwo></HookCounterTwo>
-        <HookCounterThree></HookCounterThree>
-        <HookCounterFour></HookCounterFour>
-
-        {/* useEffect Examples */}
-        <HookCounterFive></HookCounterFive>
+        <Switch>
+          <Route path="/home" component={HomePage} />
+          <Route path="/HookCounterOne" component={HookCounterOne} />
+          <Route path="/HookCounterTwo" component={HookCounterTwo} />
+          <Route path="/HookCounterThree" component={HookCounterThree} />
+          <Route path="/HookCounterFour" component={HookCounterFour} />
+          <Route path="/HookCounterFive" component={HookCounterFive} />
+          <Route path="/HookCounterSix" component={HookCounterSix} />
+          <Redirect to="/home" />
+        </Switch>
       </main>
     </div>
   );
