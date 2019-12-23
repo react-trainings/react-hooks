@@ -38,6 +38,11 @@ const examples = [
     id: 8,
     name: 'useEffect - Run effects only once',
     url: '/HookMouse'
+  },
+  {
+    id: 9,
+    name: 'useEffect - Run effects only once with cleanup',
+    url: '/HookMouseContainer'
   }
 ];
 
