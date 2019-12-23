@@ -43,6 +43,11 @@ const examples = [
     id: 9,
     name: 'useEffect - Run effects only once with cleanup',
     url: '/HookMouseContainer'
+  },
+  {
+    id: 10,
+    name: 'useEffect - Run effects with incorrect dependency',
+    url: '/HookCounterInterval'
   }
 ];
 
