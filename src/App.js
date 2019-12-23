@@ -5,6 +5,7 @@ import HookCounterOne from './components/hook-counter-one/hook-counter-one.compo
 import HookCounterTwo from './components/hook-counter-two/hook-counter-two.component';
 import HookCounterThree from './components/hook-counter-three/hook-counter-three.component';
 import HookCounterFour from './components/hook-counter-four/hook-counter-four.component';
+import HookCounterFive from './components/hook-counter-five/hook-counter-five.component';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
         <HookCounterTwo></HookCounterTwo>
         <HookCounterThree></HookCounterThree>
         <HookCounterFour></HookCounterFour>
+
+        {/* useEffect Examples */}
+        <HookCounterFive></HookCounterFive>
       </main>
     </div>
   );
