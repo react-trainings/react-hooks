@@ -13,6 +13,7 @@ import HookCounterSix from './components/hook-counter-six/hook-counter-six.compo
 import HookMouse from './components/hook-mouse/hook-mouse.component';
 import HookMouseContainer from './components/hook-mouse-container/hook-mouse-container.component';
 import HookCounterInterval from './components/hook-counter-interval/hook-counter-interval.components';
+import HookDataFetching from './components/hook-data-fetching/hook-data-fetching.component';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path="/HookMouse" component={HookMouse} />
           <Route path="/HookMouseContainer" component={HookMouseContainer} />
           <Route path="/HookCounterInterval" component={HookCounterInterval} />
+          <Route path="/HookDataFetching" component={HookDataFetching} />
           <Redirect to="/home" />
         </Switch>
       </main>

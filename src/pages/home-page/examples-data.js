@@ -36,18 +36,18 @@ const examples = [
   },
   {
     id: 8,
-    name: 'useEffect - Run effects only once',
-    url: '/HookMouse'
-  },
-  {
-    id: 9,
     name: 'useEffect - Run effects only once with cleanup',
     url: '/HookMouseContainer'
   },
   {
-    id: 10,
+    id: 9,
     name: 'useEffect - Run effects with incorrect dependency',
     url: '/HookCounterInterval'
+  },
+  {
+    id: 10,
+    name: 'useEffect - Fetching data',
+    url: '/HookDataFetching'
   }
 ];
 
