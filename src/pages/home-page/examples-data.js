@@ -48,6 +48,11 @@ const examples = [
     id: 10,
     name: 'useEffect - Fetching data',
     url: '/HookDataFetching'
+  },
+  {
+    id: 11,
+    name: 'useEffect - Fetching data based on input',
+    url: '/HookDataFetchingTwo'
   }
 ];
 
