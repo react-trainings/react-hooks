@@ -63,6 +63,11 @@ const examples = [
     id: 13,
     name: 'useContext - using the new consumer hook',
     url: '/HookCounterContextApi'
+  },
+  {
+    id: 14,
+    name: 'useReducer - using the reducer hook',
+    url: '/HookCounterReducer'
   }
 ];
 
