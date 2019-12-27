@@ -58,6 +58,11 @@ const examples = [
     id: 12,
     name: 'useEffect - Fetching data based on input and button click',
     url: '/HookDataFetchingThree'
+  },
+  {
+    id: 13,
+    name: 'useContext - using the new consumer hook',
+    url: '/HookCounterContextApi'
   }
 ];
 
