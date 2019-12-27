@@ -15,6 +15,7 @@ import HookMouseContainer from './components/hook-mouse-container/hook-mouse-con
 import HookCounterInterval from './components/hook-counter-interval/hook-counter-interval.components';
 import HookDataFetching from './components/hook-data-fetching/hook-data-fetching.component';
 import HookDataFetchingTwo from './components/hook-data-fetching-two/hook-data-fetching-two.component';
+import HookDataFetchingThree from './components/hook-data-fetching-three/hook-data-fetching-three.component';
 
 function App() {
   return (
@@ -37,7 +38,7 @@ function App() {
           <Route path="/HookCounterInterval" component={HookCounterInterval} />
           <Route path="/HookDataFetching" component={HookDataFetching} />
           <Route path="/HookDataFetchingTwo" component={HookDataFetchingTwo} />
-
+          <Route path="/HookDataFetchingThree" component={HookDataFetchingThree} />
           <Redirect to="/home" />
         </Switch>
       </main>
