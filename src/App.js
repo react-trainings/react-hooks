@@ -18,6 +18,7 @@ import HookDataFetchingTwo from './components/hook-data-fetching-two/hook-data-f
 import HookDataFetchingThree from './components/hook-data-fetching-three/hook-data-fetching-three.component';
 import HookCounterContextApi from './components/hook-counter-context-api/hook-counter-context-api.component';
 import HookCounterReducer from './components/hook-counter-reducer/hook-counter.reducer.component';
+import HookCounterReducerComplex from './components/hook-counter-reducer-complex/hook-counter.reducer-complex.component';
 
 function App() {
   return (
@@ -43,7 +44,7 @@ function App() {
           <Route path="/HookDataFetchingThree" component={HookDataFetchingThree} />
           <Route path="/HookCounterContextApi" component={HookCounterContextApi} />
           <Route path="/HookCounterReducer" component={HookCounterReducer} />
-
+          <Route path="/HookCounterReducerComplex" component={HookCounterReducerComplex} />
           <Redirect to="/home" />
         </Switch>
       </main>
