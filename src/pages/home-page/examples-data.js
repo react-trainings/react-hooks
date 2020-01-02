@@ -78,6 +78,11 @@ const examples = [
     id: 16,
     name: 'useReducer - with multiple useReducers in a component',
     url: '/HookCounterMultiReducer'
+  },
+  {
+    id: 17,
+    name: 'useReducer - with Context API',
+    url: '/HookCounterSharedState'
   }
 ];
 

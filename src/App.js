@@ -20,6 +20,7 @@ import HookCounterContextApi from './components/hook-counter-context-api/hook-co
 import HookCounterReducer from './components/hook-counter-reducer/hook-counter.reducer.component';
 import HookCounterReducerComplex from './components/hook-counter-reducer-complex/hook-counter.reducer-complex.component';
 import HookCounterMultiReducer from './components/hook-counter-multi-reducer/hook-counter-multi-reducer.component';
+import HookCounterSharedState from './components/hook-counter-shared-state/hook-counter-shared-state.component';
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
           <Route path="/HookCounterReducer" component={HookCounterReducer} />
           <Route path="/HookCounterReducerComplex" component={HookCounterReducerComplex} />
           <Route path="/HookCounterMultiReducer" component={HookCounterMultiReducer} />
+          <Route path="/HookCounterSharedState" component={HookCounterSharedState} />
           <Redirect to="/home" />
         </Switch>
       </main>
