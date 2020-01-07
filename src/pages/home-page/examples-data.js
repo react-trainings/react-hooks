@@ -83,6 +83,11 @@ const examples = [
     id: 17,
     name: 'useReducer - with Context API',
     url: '/HookCounterSharedState'
+  },
+  {
+    id: 18,
+    name: 'useReducer - Fetching data',
+    url: '/HookDataFetchingReducer'
   }
 ];
 
