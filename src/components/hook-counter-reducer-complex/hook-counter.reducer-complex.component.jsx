@@ -2,8 +2,9 @@ import React, { useReducer } from 'react';
 import './hook-counter.reducer-complex.styles.css';
 
 const initialState = {
-  value: 0
+  value: 0,
 };
+
 const reducer = (state, action) => {
   switch (action.type) {
     case 'increment':
